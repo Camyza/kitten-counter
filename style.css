@@ -1,0 +1,42 @@
+body {
+    background-image: url("kittens.jpg");
+    background-size: cover;
+    background-position: bottom middle;
+    font-family: Calibri, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    border: dotted black 5px
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: crimson;
+    font-weight: bold;
+    border-radius: 20px;;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#increment-btn {background-color: orange;}
+
+#save-btn {background-color: black;}
