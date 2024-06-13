@@ -1,18 +1,31 @@
 body {
     background-image: url("kittens.jpg");
     background-size: cover;
-    background-position: bottom middle;
+    background-repeat: no-repeat;
     font-family: Calibri, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
-    height: 100vh;
     text-align: center;
+    color: #fff
 }
 
 .container {
-    max-width: 80%;
+    background-color: black;
+    opacity: 0.80;
+    width: 300px;
     margin: auto;
-    border: dotted black 5px
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer, footer a {
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;;
+}
+
+footer a {
+    color: orange;
 }
 
 h1 {
